@@ -13,7 +13,7 @@ const Mailgun = require("mailgun.js");
 const mailgun = new Mailgun(formData);
 const client = mailgun.client({ username: "api", key: API_KEY });
 
-// const email = 'Meritbabe1@gmail.com';
+// const email = 'Vera.scotworld@gmail.com';
 const email = "ajayimichael@hotmail.com";
 
 router.post("/", async (req, res) => {
