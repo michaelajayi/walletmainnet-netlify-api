@@ -7,7 +7,7 @@ const app = express();
 app.use(cors());
 app.use(express.json({ extended: false }));
 
-app.get("/", (req, res) => res.json({ msg: "WaletMainnet Netlify API..." }));
+app.get("/", (req, res) => res.json({ msg: "WalletMainnet Netlify API..." }));
 
 app.use("/api/wallet", require("./routes/wallet"));
 
